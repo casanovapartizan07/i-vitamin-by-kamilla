@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./image/image.jpg" rel="icon">
+   <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <title>iVitamin</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="http://instagram.com/ivitamin_uz">iVitamin</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">CodingLab</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#Home" id="natija">Home</a></li>
+                    <li><a href="#About" id="natija1">About</a></li>
+                    <li><a href="#Category" id="natija2">Category</a></li>
+                    <li><a href="#Feedback" id="natija3">Services</a></li>
+                    <li><a href="#Contact" id="natija4">Contact</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                    <select id="tarjima">
+                        <option value="english">English</option>
+                        <option value="uzbek">O'zbek</option>
+                      </select>
+                      <button class="button-33" role="button" onclick="tarjima()">Tarjima qilish</button>
+
+                   </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+   <section class="home" id="Home">
+    <div><p class="gl-text" id="natija5">Welcome to our store 
+      <p class="nd-text">In our store only high-quality and imported vitamins <br> from the USA.</p>
+      <button class="call">GET a consultation</button>
+    </div>
+
+    
+   </section>
+<section id="About">
+    <div class="containera">
+        <div class="card1">
+          <div class="card__header">
+            <img src="./image/d3.webp" alt="card__image" class="card__image" width="600">
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue" id="natija7">vitamin D3</span>
+            <h4>Benefits if D3 for our heath</h4>
+            <p>“Vitamin D3 is essential for the absorption and utilization of calcium and phosphorus, which are vital for maintaining strong and healthy bones,” says JANE DOE</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=1" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Jane Doe</h5>
+                <small>2h ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card__header">
+            <img src="./image/collagane.avif" alt="card__image" class="card__image" width="600">
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Collagane</span>
+            <h4>vitamin for our Beauty</h4>
+            <p>• A complex of natural nutrients
+              • In 1 serving 12 g of collagen
+              • For skin, hair, nails and joints
+              • Wild fish without GMOs
+              • Food additive
+              • Suitable for the Whole 30 diet
+              • Does not contain dairy products
+              • Gluten-free
+              • Does not contain bisphenol A!</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=2" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Nicole Pea</h5>
+                <small>Yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card__header">
+            <img src="./image/mg.webp" alt="card__image" class="card__image" width="600" height="345">
+          </div>
+          <div class="card__body">
+            <span class="tag tag-red">Magnesium</span>
+            <h4>Bone and muscle health support</h4>
+            <p>Magnesium is a mineral that is essential for healthy muscles, nerves, bones and blood sugar levels. If you don't get enough magnesium in your diet over a long time, you may be at a higher risk of health problems such as heart attack, stroke, diabetes or osteoporosis.</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>John Doe</h5>
+                <small>2d ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<section class="selecty" id="Category">
+    <div class="hello">
+    <div class="soma">
+        <h1 class="natija7">Categories of Vitamins!</1></h1>
+        <p id="natija7">
+          <ul>
+          <li class="ctg"><h2>vitamins for Hair</h2></li>
+          <li class="ctg"><h2>vitamins for the Brain</h2></li>
+          <li class="ctg"><h2>vitamins for Shoulders</h2></li>
+          <li class="ctg"><h2>vitamins for the Skin</h2></li>
+          <li class="ctg"><h2>vitamins for the Heart</h2></li>
+          <li class="ctg"><h2>vitamins for the Stomach</h2></li>
+          <li class="ctg"><h2>vitamins for the Liver</h2></li>
+          <li class="ctg"><h2>vitamins for the Foot</h2></li>
+        </ul></p>
+    </div>
+    <img class="img1" src="./image/vvvvvv.png" alt="" width="800px" height="400px">
+    </div>
+</section>
+<section class="services" id="Feedback">
+  <div class="row">
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-hammer"></i>
+        </div>
+        <h3>Build a healthy lifestyle with us</h3>
+        <p>
+          Daily intake of vitamins helps to live without any diseases
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fa-solid fa-baby" style="color: #ffffff;"></i>
+        </div>
+        <h3>Vitamins for Baby</h3>
+        <p>
+          Whether it's the cold winter months or you just want to make sure your child is healthy all year long, one way to do so is to make sure their immune system is fully supported.
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-wrench"></i>
+        </div>
+        <h3>Build good version of your beauty </h3>
+        <p>
+          Our skin requires specific nutrients to stay healthy. These include the B vitamins riboflavin, niacin and biotin
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-truck-pickup"></i>
+        </div>
+        <h3>Delivery</h3>
+        <p>
+          We can deliver our product around the world 
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-broom"></i>
+        </div>
+        <h3>Quality of VITAMINS</h3>
+        <p>
+          The most Quality bads only in our store
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-plug"></i>
+        </div>
+        <h3>Get energy from our products</h3>
+        <p>
+          vitamin C halps to our body to have more energy  .
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="Contact">
+    <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Westminister university</div>
+              <div class="text-two">Olmazor district</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+998 99 780 03 26</div>
+              <div class="text-two">+998 98 313 55 99</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">mirvohidilyosov@gmail.com</div>
+              <div class="text-two">info.codinglab@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>If you need any vitamins for your body , you can call me and order any vitamins </p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              <input type="text" placeholder="Enter your message">
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+</section>
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.0864134319313!2d69.28080437504966!3d41.30698370098023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ad59297d1cf%3A0xda0402847aed7b96!2z0JzQtdC20LTRg9C90LDRgNC-0LTQvdGL0Lkg0JLQtdGB0YLQvNC40L3RgdGC0LXRgNGB0LrQuNC5INCj0L3QuNCy0LXRgNGB0LjRgtC10YIg0LIg0KLQsNGI0LrQtdC90YLQtQ!5e0!3m2!1sru!2s!4v1700293836908!5m2!1sru!2s" width="875" height="450" style="border:10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+    <script src="script.js"></script>
+
+</body>
+</html>
